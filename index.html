@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CAROUSEL_BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- ABOUT_font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- BLOG_magnific-popup -->
+    <link rel="stylesheet" href="./css/magnific-popup.css">
+
+    <!-- PORFOLIO_lightspeedbox -->
+    <link rel="stylesheet" href="./css/lsb.css">
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <h1>
+            <a href="index.html">hous<span>ing</span></a>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#intro">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#porfolio">Porfolio</a></li>
+                <li><a href="#agent">Agents</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CAROUSEL -->
+    <section id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="2"></li>
+            <li data-bs-target="#carousel" data-bs-slide-to="3"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/b1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>LOREM IPSUM AMET</h5>
+                    <p> Lorem ipsum dolor sit, consectetur adiping elit.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/b2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>DOLOR SIT HATANT MORBI</h5>
+                    <p> Quis autem vel eum iure reprehenderit quivol.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/b3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>QUIS AUTEM VE EUM IURE</h5>
+                    <p>Excepteur sint ocecat cupid proident, deserunt.</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/b4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>VOLUPTATE VELIT ESSE</h5>
+                    <p>Quis autem velreprehenderit qui ea.eum iure</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#carousel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </section>
+
+    <div class="clear-both"></div>
+
+    <!-- ABOUT -->
+    <section id="intro">
+        <div class="intro__content">
+            <h1>About</h1>
+            <div class="font__awesome">
+                <div class="intro__item">
+                    <i class="fas fa-home"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="intro__item">
+                    <i class="fas fa-key"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="intro__item">
+                    <i class="far fa-money-bill-alt"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+            <div class="text">
+                <h2>About us</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed odio consequat, tristique elit
+                    sed, molestie nulla. Mauris et quam leo. Quisque tincidunt facilisis rutrum. Etiam mattis arcu vitae
+                    velit sagittis vehicula. Duis posuere ex in mollis iaculis. Suspendisse tincidunt ut velit id
+                    euismod.vulputate turpis porta ex sodales, dignissim hendrerit eros sagittis. Curabitur lacinia dui
+                    ut luctus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras quis</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNT -->
+    <section id="count">
+        <h1>Stats</h1>
+        <div class="count__content">
+            <div class="count__item">
+                <p class="counter">3500</p>
+                <h1>clients</h1>
+            </div>
+            <div class="count__item">
+                <p class="counter">650</p>
+                <h1>Plans</h1>
+            </div>
+            <div class="count__item">
+                <p class="counter">1021</p>
+                <h1>projects</h1>
+            </div>
+            <div class="count__item">
+                <p class="counter">1010</p>
+                <h1>Like</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG -->
+    <section id="blog">
+        <h1>Blog</h1>
+        <div class="blog__content">
+            <div class="blog__item">
+                <img src="./images/g1.jpg" alt="">
+                <div class="blog__item background">
+                    <h5><a href="./ajax.html" class="ajax-popup-link">Lorem Ipsum Passage,</a></h5>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                    <button><a href="./ajax.html" class="ajax-popup-link">Read More..</a></button>
+                </div>
+            </div>
+            <div class="blog__item">
+                <img src="./images/g2.jpg" alt="">
+                <div class="blog__item background">
+                    <h5><a href="./ajax.html" class="ajax-popup-link">Lorem Ipsum Passage,</a></h5>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                    <button><a href="./ajax.html" class="ajax-popup-link">Read More..</a></button>
+                </div>
+            </div>
+            <div class="blog__item">
+                <img src="./images/g1.jpg" alt="">
+                <div class="blog__item background">
+                    <h5><a href="./ajax.html" class="ajax-popup-link">Lorem Ipsum Passage,</a></h5>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+                    <button><a href="./ajax.html" class="ajax-popup-link">Read More..</a></button>
+                </div>
+            </div>
+    </section>
+
+    <!-- VIDEO -->
+    <section id="video">
+        <div class="video__item item1">
+            <img src="./images/video.jpg" alt="">
+            <a class="open-popup" href="https://vimeo.com/246252023">
+                <i class="fas fa-play-circle"></i>
+            </a>
+        </div>
+        <div class="video__item item2">
+            <h1>Get More..</h1>
+            <div class="item2__content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut minim
+                    veniam, labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                    laboris nisi esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                    nulla pariatur.
+                </p>
+
+                <button><a class="ajax-popup-link" href="./ajax.html">Read more..</a></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORFOLIO -->
+    <section id="porfolio">
+        <h1>Porfolio</h1>
+        <div class="porfolio__content">
+            <div class="porfolio__item">
+                <a href="./images/img1.jpg" class="lsb-preview" data-lsb-group="gallery1">
+                    <img src="./images/img1.jpg" alt="Image Title">
+                    <div class="porfolio__overlay">
+                        <div class="overlay__content">
+                            <hr>
+                            <h3>GALLERY</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="porfolio__item">
+                <a href="./images/img2.jpg" class="lsb-preview" data-lsb-group="gallery1">
+                    <img src="./images/img2.jpg" alt="Image Title">
+
+                    <div class="porfolio__overlay">
+                        <div class="overlay__content">
+                            <hr>
+                            <h3>GALLERY</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="porfolio__item">
+                <a href="./images/img6.jpg" class="lsb-preview" data-lsb-group="gallery1">
+                    <img src="./images/img6.jpg" alt="Image Title">
+                    <div class="porfolio__overlay">
+                        <div class="overlay__content">
+                            <hr>
+                            <h3>GALLERY</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="porfolio__item">
+                <a href="./images/img1.jpg" class="lsb-preview" data-lsb-group="gallery1">
+                    <img src="./images/img5.jpg" alt="Image Title">
+                    <div class="porfolio__overlay">
+                        <div class="overlay__content">
+                            <hr>
+                            <h3>GALLERY</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="porfolio__item">
+                <a href="./images/img4.jpg" class="lsb-preview" data-lsb-group="gallery1">
+                    <img src="./images/img4.jpg" alt="Image Title">
+
+                    <div class="porfolio__overlay">
+                        <div class="overlay__content">
+                            <hr>
+                            <h3>GALLERY</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="porfolio__item">
+                <a href="./images/img3.jpg" class="lsb-preview" data-lsb-group="gallery1">
+                    <img src="./images/img3.jpg" alt="Image Title">
+                    <div class="porfolio__overlay">
+                        <div class="overlay__content">
+                            <hr>
+                            <h3>GALLERY</h3>
+                            <hr>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur vel.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SUBSCRIBES -->
+    <section id="subscribe">
+        <div class="subscribe__content">
+            <h1>Subscribe</h1>
+            <p>consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur. Ut enim ad minim veniam, quis
+                nostrud exercitation ullamco laboris nisi</p>
+        </div>
+        <div class="form">
+            <form action="#" method="post">
+                <input type="email" placeholder="Email">
+                <button>Click</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- AGENTS -->
+    <section id="agent">
+        <h1>Our Agents</h1>
+        <div class="agent__content">
+            <div class="agent__item">
+                <img src="./images/t1.jpg" alt="">
+                <div class="agent__background">
+                    <h3>KAT WALLY</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="background__icon">
+                        <i class="fab fa-facebook-f">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fab fa-twitter">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fas fa-rss">
+                            <a href="#"></a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="agent__item">
+                <img src="./images/t2.jpg" alt="">
+                <div class="agent__background">
+                    <h3>JOHN MAX</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="background__icon">
+                        <i class="fab fa-facebook-f">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fab fa-twitter">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fas fa-rss">
+                            <a href="#"></a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="agent__item">
+                <img src="./images/t3.jpg" alt="">
+                <div class="agent__background">
+                    <h3>KAT WALLY</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="background__icon">
+                        <i class="fab fa-facebook-f">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fab fa-twitter">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fas fa-rss">
+                            <a href="#"></a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="agent__item">
+                <img src="./images/t4.jpg" alt="">
+                <div class="agent__background">
+                    <h3>KAT WALLY</h3>
+                    <p>Lorem Ipsum</p>
+                    <div class="background__icon">
+                        <i class="fab fa-facebook-f">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fab fa-twitter">
+                            <a href="#"></a>
+                        </i>
+                        <i class="fas fa-rss">
+                            <a href="#"></a>
+                        </i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAP -->
+    <section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3072.5703439059935!2d22.40477531473522!3d39.63687701062191!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1358889566fb0a89%3A0x3204f738c915905b!2sZarmani%2C%20Larisa%20412%2022%2C%20Hy%20L%E1%BA%A1p!5e0!3m2!1svi!2s!4v1609835192528!5m2!1svi!2s"
+            width="100%" height="400" frameborder="0" style="border:1rem solid rgb(128, 128, 128);" allowfullscreen=""
+            aria-hidden="false" tabindex="0"></iframe>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+        <h1>Contact Us</h1>
+        <form action="POST">
+            <div class="left">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Last Name">
+                <input type="mail" placeholder="Email">
+                <input type="tel" placeholder="Phone">
+            </div>
+            <div class="right">
+                <textarea name="text" cols="30" rows="10" placeholder="Message"></textarea>
+                <button>Submit</button>
+            </div>
+        </form>
+    </section>
+
+    <div class="clear-both"></div>
+
+    <!-- footer -->
+    <footer>
+        <div class="content">
+            <div class="text">
+                <p>© 2017 Housing. All Rights Reserved | Design by <a href="https://w3layouts.com/"
+                        target="_blank">W3layouts</a></p>
+            </div>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fas fa-rss"></i>
+                <i class="fab fa-vk"></i>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+
+    <a href="#" class="backtotop cd-top text-replace js-cd-top">
+        <img src="./images/arrowup.png" alt="">
+    </a>
+
+
+
+
+    <!-- SCRIPT -->
+    <!-- CAROUSEL -BS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <!-- COUNTING -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous"></script>
+    <script src="./js/jquery.countup.js"></script>
+    <script>$('.counter').countUp();</script>
+
+
+    <!-- BLOG_magnific-popup -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery.magnific-popup.js"></script>
+    <script>
+        $('.ajax-popup-link').magnificPopup({
+            type: 'ajax'
+        });
+    </script>
+
+    <!-- VIDEO GET MORE_magnific-popup -->
+    <script>
+        $('.open-popup').magnificPopup({
+            items: [
+                {
+                    src: 'https://vimeo.com/246252023',
+                    type: 'iframe'
+                }
+            ]
+        });
+    </script>
+
+    <!-- PORFOLIO_lightspeedbox -->
+    <script src="./js/lsb.min.js"></script>
+    <script>
+        $(window).load(function () {
+            $.fn.lightspeedBox();
+        });
+    </script>
+
+    <!-- BACK TO TOP -->
+    <script src="./js/main.js"></script>
+    <script src="js/util.js"></script>
+    <script>
+        var offset = 300,
+            offsetOpacity = 1200,
+            scrollDuration = 700;
+    </script>
+</body>
+
+</html>
